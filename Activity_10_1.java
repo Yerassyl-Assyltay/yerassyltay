@@ -9,7 +9,7 @@ public class ex20_1 {
 
     public static void main(String... args) {
         ex20_1 exercise2001 = new ex20_1();
-        File file = new File("Yerassyl.txt");//your file
+        File file = new File("Yerassyl.txt");
         try {
             file = exercise2001.getFileFromResources();
         } catch (Exception e) {
